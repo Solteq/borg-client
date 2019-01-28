@@ -1,6 +1,6 @@
 FROM "bitnami/minideb:stretch"
 
-MAINTAINER "Mira Liikanen <mir@mireiawen.net>"
+MAINTAINER "Mira Liikanen <mira.liikanen@solteq.com>"
 
 # Write the backports list file for current codename
 RUN \

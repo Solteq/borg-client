@@ -14,8 +14,8 @@ docker run \
 	--rm \
 	--interactive \
 	--tty \
---volume "/home/mireiawen-docker:/root" 
+--volume "/home/solteqmagento-docker:/root" 
 	--env BORG_REPO="borgbackup@<host>:/backups/repository" \
 	--env BORG_PASSPHRASE="<passphrase>" \
-	mireiawen/borg-client list
+	solteqmagento/borg-client list
 ```
